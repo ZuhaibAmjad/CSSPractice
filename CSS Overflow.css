@@ -1,0 +1,6 @@
+#overflow {
+ width:250px;
+ height:250px;
+ border:5px solid yellow;
+ overflow: hidden;
+}
