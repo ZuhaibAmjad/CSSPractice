@@ -1,6 +1,7 @@
 #first{
     border: 5px solid green;
     width: 500px;
+    float: left;
 }
 
 #second{
