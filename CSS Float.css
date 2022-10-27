@@ -7,4 +7,5 @@
 #second{
     border: 3px solid yellow;
     width: 700px;
+    float: right;
 }
