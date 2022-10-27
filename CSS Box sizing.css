@@ -1,0 +1,6 @@
+#Box{
+    width:500px;
+    border:50px solid yellow;
+    padding: 40px;
+    box-sizing: border-box;
+}
