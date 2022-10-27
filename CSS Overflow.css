@@ -2,5 +2,5 @@
  width:250px;
  height:250px;
  border:5px solid yellow;
- overflow: visible;
+ overflow-y: hidden;
 }
