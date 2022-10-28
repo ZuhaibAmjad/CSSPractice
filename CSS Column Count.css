@@ -1,0 +1,12 @@
+#first{
+    border: 5px solid green;
+    width: 800px;
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: 5px dotted blue;
+
+
+}
+h2{
+    column-span: all;
+}
