@@ -1,0 +1,13 @@
+ul{
+   list-style-type: circle;
+   list-style-position:inside, outside ;
+   border: 3px solid red;
+   list-style-image: url();
+}
+ol{
+    list-style-type: upper-alpha, lower-alpha, lower-roman, upper-roman;
+    list-style-position: inside;    
+}
+ul li{
+    padding: 10px;
+}
