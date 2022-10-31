@@ -14,5 +14,5 @@ body{
     width: 350px;
     height: 250px;
     background: tomato;
-    transform:perspective(800px) rotateY(60deg) translate3d(300px, 100px, 300px);
+    transform:perspective(800px) scale3d(2,2,1) rotateY(60deg) ;
 }
