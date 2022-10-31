@@ -1,0 +1,16 @@
+body{
+
+}
+
+#box{
+    width: 150px;
+    height: 150px;
+    background: aqua;
+    transition-property: width;
+    transition-duration: 2s;
+
+}
+
+#box:hover{
+    width: 300px;
+}
