@@ -8,6 +8,7 @@ body{
     background: aqua;
     transition-property: width, height, background;
     transition-duration: 2s, 2s, 2s;
+    transition-timing-function: steps(6);
 
 }
 
