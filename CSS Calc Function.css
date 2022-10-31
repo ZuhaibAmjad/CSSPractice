@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#box{
+    border: 0px solid brown;
+    background: lightgreen;
+    width: 100%;
+    height:100px;
+    
+}
+
+#content{
+    border: 0px solid brown;
+    background: yellow;
+    width: 100%;
+    height:calc(100vh - 200px);
+
+    
+}
+
+#footer{
+    border: 0px solid brown;
+    background: lightblue;
+    width: 100%;
+    height:100px;
+
+    
+}
