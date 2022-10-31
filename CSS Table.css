@@ -13,5 +13,11 @@ table tr td{
 caption{
     caption-side: top;
 }
+tr:hover{
 
+}
+
+tr:nth-child(even){
+    background: #f2f2f2;
+}
  
