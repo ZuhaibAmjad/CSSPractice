@@ -7,5 +7,6 @@ body{
     height: 150px;
     background: aqua;
     margin: 150px 300px;
-    transform: rotate(30deg);
+    transform: skew(20deg,20deg);
+    transform-origin: left top;
 }
