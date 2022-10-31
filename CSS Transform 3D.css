@@ -14,6 +14,6 @@ body{
     width: 350px;
     height: 250px;
     background: tomato;
-    transform-origin: left bottom;
-    transform:perspective(800px) rotateX(30deg);
+    transform-origin: left center;
+    transform:perspective(800px) rotateY(30deg);
 }
