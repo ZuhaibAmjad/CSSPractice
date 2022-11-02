@@ -10,12 +10,15 @@ body{
     left: 50%;
     line-height: 300px;
     margin: -150px;
-    background: aliceblue;
-    color: aqua;
+    background: rgb(254, 240, 255);
+    color: rgb(0, 255, 85);
     text-align: center;
     font-size: 40px;
     box-shadow: 0 0 15px rgba(0,0,0,0.1);
     animation-name: sample;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 @keyframes sample{
