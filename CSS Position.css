@@ -1,9 +1,0 @@
-#test{
-    width: 150px;
-    height: 150px;
-    border: 2px solid green;
-    background-color: yellow;
-    position: sticky;
-    left: 100px;
-    top: -100px;
-}
