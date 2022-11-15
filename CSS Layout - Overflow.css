@@ -1,0 +1,38 @@
+div {
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid;
+    overflow: visible;
+  }
+  #Div1{
+    background-color: coral;
+  width: 200px;
+  height: 65px;
+  border: 1px solid black;
+  overflow: hidden;
+  }
+
+  #Div2{
+    background-color: coral;
+  width: 200px;
+  height: 100px;
+  border: 1px solid black;
+  overflow: scroll;
+  }
+
+  #Div3{
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid black;
+    overflow: auto;
+  }
+  #Div4{
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid black;
+    overflow-x: scroll;
+    overflow-y: scroll;
+  }
