@@ -1,0 +1,46 @@
+ul.a {
+    list-style-type: circle;
+  
+  }
+  
+  ul.b {
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  }
+  
+  ol.c {
+    list-style-type: upper-roman;
+  }
+  
+  ol.d {
+    list-style-type: lower-alpha;
+  }
+  ul.A1 {
+    list-style-position: outside;
+  }
+  
+  ul.B1 {
+    list-style-position: inside;
+  }
+  ul {
+    background: #3399ff;
+    padding: 20px;
+  }
+  ol {
+    background: #ff9999;
+    padding: 20px;
+  }
+  ul li {
+    background: #cce5ff;
+    color: darkblue;
+    margin: 5px;
+  }
+
+  ol li {
+    background: #ffe5e5;
+    color: darkred;
+    padding: 5px;
+    margin-left: 35px;
+  }
+  
