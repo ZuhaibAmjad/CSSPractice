@@ -1,0 +1,31 @@
+<html>
+<head>
+    <title>CSS Opacity / Transparency</title>
+    <link rel="stylesheet" href="CSS Image Opacity.css" >
+</head>
+<body>
+
+<h1>Image Transparency</h1>
+<p>The opacity property specifies the transparency of an element. The lower the value, the more transparent:</p>
+
+<p>Image with 50% opacity:</p>
+<img src="images/Img2.jpg" alt="Img2" width="170" height="100">
+
+
+<h1>Transparent Box</h1>
+<p>When using the opacity property to add transparency to the background of an element, all of its child elements become transparent as well. This can make the text inside a fully transparent element hard to read:</p>
+
+<div class="first"><p>opacity 0.1</p></div>
+<div class="second"><p>opacity 0.3</p></div>
+<div class="third"><p>opacity 0.6</p></div>
+<div><p>opacity 1 (default)</p></div>
+</body>
+
+
+<div class="background">
+    <div class="transbox">
+      <p>This is some text that is placed in the transparent box.</p>
+    </div>
+  </div>
+
+</html>
