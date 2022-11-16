@@ -1,0 +1,68 @@
+<html>
+<head>
+    <title>CSS Forms</title>
+    <link rel="stylesheet" href="CSS Forms.css" >
+</head>
+<body>
+
+<h3>Using CSS to style an HTML Form</h3>
+
+<div>
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Pakistan</option>
+      <option value="canada">India</option>
+      <option value="usa">Sri Lanka</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+
+<h2>A full-width input field</h2>
+
+<form>
+  <label for="fname">First Name</label>
+  <input type="text" id="fname" name="fname">
+</form>
+
+<h2>Padded input fields</h2>
+
+<form>
+  <label for="fname">First Name</label>
+  <input type="text" id="fname" name="fname">
+  <label for="lname">Last Name</label>
+  <input type="text" id="lname" name="lname">
+</form>
+
+<h2>Input field with an icon inside</h2>
+
+<form>
+  <input type="text" name="search" placeholder="Search..">
+</form>
+
+
+<h2>Styling textarea</h2>
+
+<p><strong>Tip:</strong> Use the resize property to prevent textareas from being resized (disable the "grabber" in the bottom right corner):</p>
+
+<form>
+  <textarea>Some text...</textarea>
+</form>
+
+<h2>Styling form buttons</h2>
+
+<input type="button" value="Button">
+<input type="reset" value="Reset">
+<input type="submit" value="Submit">
+
+</body>
+</html>
