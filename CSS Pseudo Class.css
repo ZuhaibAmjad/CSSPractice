@@ -1,0 +1,42 @@
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+  a.highlight:hover {
+    color: #ff0000;
+    font-size: 22px;
+  }
+  #a2{
+    background-color: green;
+    color: white;
+    padding: 25px;
+    text-align: center;
+  }
+  #a2:hover{
+    background-color: blue;
+  }
+
+  #a1{
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+  }
+  #a1:hover p{
+    display: block;
+  }
