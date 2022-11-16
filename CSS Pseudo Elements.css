@@ -1,0 +1,8 @@
+p::first-line{
+    color: brown;
+    font-variant: small-caps;
+}
+p::first-letter{
+    color: red;
+    font-size: xx-large;
+}
