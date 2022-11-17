@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header {
+    text-align: center;
+    
+    margin-bottom: 0%;
+    padding: 0ch;
+}
+.A1 {
+    display: inline-flex;
+    background-color:gray;
+    margin-top: 0;
+    padding: 0;
+   
+}
+
+.a1 video {
+   height: 10%;
+ padding: 20px;
+ background-color: beige;
+
+}
+
+/* ye just space ko cover kerny ke liye bnai hai */
+.a2 {
+    
+    float: left;
+    height: 190%;
+    width: 20%;
+    background-color: gray;
+}
+.pcolor{
+    background-color: brown;
+    color: white;
+}
+
+ul li{
+    list-style: none;
+}
+.mainparagraph{
+    background-color:aqua;
+    padding: 10px;
+}
+
