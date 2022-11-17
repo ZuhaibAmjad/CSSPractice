@@ -32,7 +32,7 @@ body {
 }
 .content h2 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 80px;
+    font-size: 70px;
 }
 
 .main2 {
@@ -85,9 +85,10 @@ form input {
 }
 .imgcont {
     display: inline-flex;
+    margin-right: 60px;
 }
 img {
-    border-radius: 2px;
+    border-radius: 1px;
 }
 
   a {
@@ -106,6 +107,7 @@ img {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    background-color: green;
   }
   .foter {
     background-color:white;
@@ -144,7 +146,35 @@ img {
   }
 #navb {
     margin-left: 50px;
-    color: red;
+    
     margin: 50px;
   }
- 
+ .imgcont ul li {
+    list-style-type:none;
+    text-align: left;
+    
+    
+ }
+ #D1 {
+    text-align: left;
+ }
+ #D3 {
+    font-size: large;
+    padding: 0px;
+    margin: 0;
+ }
+ #D2{
+    font-size: small;
+ }
+ #d4 {
+    list-style-type: none;
+    display: inline-flex;
+    margin-top: 30px;
+    padding: 10px;
+    
+ }
+ #D4 li{
+   margin: 10px;
+   padding: 10px;
+   color: darkslategrey;
+ }
