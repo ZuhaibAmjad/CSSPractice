@@ -1,0 +1,21 @@
+body {
+    background-image: url("images/paper.jpg");
+}
+
+.ex1 {
+    background-color: lightgreen;
+    border: 2px solid black;
+    padding: 15px;
+}
+.ex2 {
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 15px;
+}
+div {
+    border: 2px solid red;
+
+}
+span {
+    border: inherit;
+}
