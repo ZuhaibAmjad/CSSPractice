@@ -1,0 +1,28 @@
+#borderimg {
+    border: 10px dashed transparent;
+    padding: 15px;
+    border-image: url(images/back1.jpg) 30 round;
+}
+
+#borderimg1 {
+    border: 10px dashed transparent;
+    padding: 15px;
+    border-image: url(images/back1.jpg) 30 stretch;
+}
+
+#borderimg2 {
+    border: 10px dashed transparent;
+    padding: 15px;
+    border-image: url(images/back1.jpg) 50 round;
+}
+
+#borderimg3 {
+    border: 10px dashed transparent;
+    padding: 15px;
+    border-image: url(images/back1.jpg) 20% round;
+}
+#borderimg4 {
+    border: 10px dashed transparent;
+    padding: 15px;
+    border-image: url(images/back1.jpg) 30% round;
+}
