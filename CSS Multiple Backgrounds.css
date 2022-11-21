@@ -1,0 +1,22 @@
+#example1 {
+    background-image: url(images/Img2.jpg) left top no-repeat, url(images/fimg.jpg) right bottom no-repeat;
+padding: 15px;
+background-size: 50px 130px auto;
+    color: red;
+/* is mai image ka issue hai is liye show nai ho rahi */
+}
+
+#example2 {
+    border: 1px solid black;
+    background: url(images/fimg.jpg);
+    background-size: 100px 80px;
+    background-repeat: no-repeat;
+    padding: 15px;
+}
+
+#example3 {
+    border: 1px solid black;
+    background: url(images/fimg.jpg);
+    background-repeat: no-repeat;
+    pad: 15px;
+}
