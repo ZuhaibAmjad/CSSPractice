@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#googleimg {
+    width: 270px;
+    margin: 150px 630px 0;
+}
+.form {
+    border-radius: 55px;
+    width: 100%;
+    max-width: 600px;
+    margin-left: 450px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 0px;
+    box-shadow: 10px 10px 20px -15px ,-10px -10px 20px -15px rgba(0, 0, 0, 0.15);
+}
+#searchbtn {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    height: 10px;
+    color: gray;
+}
+#search {
+    font-size: 15px;
+    width: 550px;
+    border: 0;
+    background: transparent;
+    outline: none;    
+}
+#voicebtn {
+    background: transparent;
+    border: none;
+    color: gray;
+}
+.fa-solid{
+    width: 40px;
+}
+.Images {
+    display:inline-flex;
+    align-items: center;
+    
+}
+.Images .icon{
+    
+}
+.icon img {
+    width: 60px;
+    height: 40px;
+    align-self: center;
+    border: 1px solid black;
+}
+
+.icon1 img {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+}
+.icon2 img {
+    width: 60px;
+    height: 40px;
+    border: 1px solid black;
+}
