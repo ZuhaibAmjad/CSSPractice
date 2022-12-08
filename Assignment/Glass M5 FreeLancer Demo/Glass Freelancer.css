@@ -1,0 +1,490 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(img/bb1.jpg);
+    background-repeat: repeat-y;
+    width: cover;
+    font-family: sans-serif;
+}
+
+/* NavBar section + responsive section "Start" */
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 90%;
+    padding-right: 25px;
+    position: fixed;
+    z-index: 1;
+}
+.nav2{
+    color: white;
+}
+.nav3{
+    display: flex;
+    list-style-type: none;
+    margin-top: 10px;
+}
+.nav3 li{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px;
+    cursor: pointer;
+}
+.nav4{
+    margin-top: 20px;
+}
+.nav1 .fa-solid{
+    font-size: 25px;
+    color: gray;
+    display:none;
+}
+.nav4 input {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    height: 45px;
+    width: 150px;
+    border-radius: 50px;
+    background-color: #a148ff !important;
+    background: linear-gradient(90deg, #a148ff 0%, #ff6f45 100%);
+    border: none;
+    transition: all 0.3s;
+}
+/* Responsive Start */
+@media screen and (max-width:992px) {
+    .nav1 {
+        display:flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        margin-left: 50px;
+        width: 90%;
+        padding-right: 25px;
+        position: fixed;
+        z-index: 1;
+        
+    }
+    .nav2{
+        color: white;
+        position: relative;
+    }
+    .nav3{
+        display: block;
+        list-style-type: none;
+        margin-top: 10px;
+        justify-content: space-between;
+
+    }
+    .nav3 li{
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        margin: 20px;
+        cursor: pointer;
+    }
+    .nav4{
+        margin-top: 20px;
+        display: flex-start;
+       
+    }
+    .nav1 .fa-solid{
+        font-size: 25px;
+        color: gray;
+        display: none;
+    }
+    .nav4 input {
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+        height: 45px;
+        width: 150px;
+        border-radius: 50px;
+        background-color: #a148ff !important;
+        background: linear-gradient(90deg, #a148ff 0%, #ff6f45 100%);
+        border: none;
+        transition: all 0.3s;
+    }
+}
+@media screen and (max-width:768px){
+    .nav1 .fa-solid{
+        font-size: 25px;
+        color: gray;
+        display: flex;
+    }
+}
+/* Pending */
+
+/* First Background image section and write content on it "Start" */
+
+.start2{
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+.start2 img{
+    opacity: 0.3;
+    background-color:blue !important;
+    background: linear-gradient(180deg, #6f0dd8 100%, blue 50%);
+}
+.start3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+}
+.start3 h1{
+    color: white;
+    font-size: 5rem;
+    font-weight: bolder;
+    line-height: 20px;
+}
+.start3 p{
+    color: white;
+    font-size: 1.4rem;
+    line-height: 40px;
+    word-spacing: 2px;
+}
+.start4 input{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #a148ff !important;
+    background: linear-gradient(90deg, #a148ff 0%, #ff6f45 100%);
+    border: none;
+    transition: all 0.3s;
+}
+@media screen and(max-width:992) {
+    .start2{
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 0;
+    }
+    
+    .start3{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+        text-align: center;  
+    }
+    .start3 h1{
+        color: white;
+        font-size: 5rem;
+        font-weight: bolder;
+        line-height: 20px;
+    }
+    .start3 p{
+        color: white;
+        font-size: 1.4rem;
+        line-height: 40px;
+        word-spacing: 2px;
+        
+    }
+    .start4 input{
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        padding: 20px 40px;
+        border-radius: 50px;
+        cursor: pointer;
+        background-color: #a148ff !important;
+        background: linear-gradient(90deg, #a148ff 0%, #ff6f45 100%);
+        border: none;
+        transition: all 0.3s;
+    }
+    
+}
+@media screen and(max-width:768) {
+    .start2{
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 0;
+    }
+    
+    .start3{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+        text-align: justify;  
+    }
+    .start3 h1{
+        color: white;
+        font-size: 3rem;
+        font-weight: bolder;
+        line-height: 10px;
+    }
+    .start3 p{
+        color: white;
+        font-size: 1rem;
+        line-height: 30px;
+        word-spacing: 2px;
+    }
+    .start4 input{
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        padding: 20px 40px;
+        border-radius: 50px;
+        cursor: pointer;
+        background-color: #a148ff !important;
+        background: linear-gradient(90deg, #a148ff 0%, #ff6f45 100%);
+        border: none;
+        transition: all 0.3s;
+    }
+    
+}
+
+/* First Background image section and write content on it "Pending" */
+
+        /* <!-- About Me section "Start" --> */
+
+.about1{
+    display: flex;
+    margin: 100px;
+}
+.about2{
+    width: 500px;
+    height: 500px;
+}
+.about2 img{
+    border-radius: 30px;
+}
+.about3{
+    background-color: #E3E9FF;
+    border-radius: 30px;
+    width: 750px;
+    height: 300px;
+    margin: 150 0  150 50;
+    padding: 50px;
+}
+.about3 h1{
+    color: #052349;
+    font-size: 4.1rem;
+    font-weight: bolder;
+    line-height: 40px;
+}
+.about4{
+    display: flex;
+}
+.about4 p{
+    font-size: 1.3rem;
+    color: #545f6e;
+}
+@media screen and (max-width:992) {
+    .about1{
+        display: flex;
+        margin: 100px;
+    }
+    .about2{
+        width: 45%;
+        height: 600px;
+    }
+    .about2 img{
+        border-radius: 30px;
+    }
+    .about3{
+        background-color: #E3E9FF;
+        border-radius: 30px;
+        width: 50%;
+        height: 300px;
+        margin: 150 0  150 50;
+        padding: 50px;
+    }
+    .about3 h1{
+        color: #052349;
+        font-size: 4.1rem;
+        font-weight: bolder;
+        line-height: 40px;
+    }
+    .about4{
+        display: flex;
+    }
+    .about4 p{
+        font-size: 1.3rem;
+        color: #545f6e;
+    }
+}
+@median only screen and (max-width:768) {
+    .about1{
+        display: block;
+        margin: auto;
+    }
+    .about2{
+        width:80%;
+        height: auto;
+    }
+    .about2 img{
+        border-radius: 30px;
+    }
+    .about3{
+        background-color: #E3E9FF;
+        border-radius: 30px;
+        width: 80%;
+        height: 300px;
+        margin: auto;
+        padding: 50px;
+    }
+    .about3 h1{
+        color: #052349;
+        font-size: 4.1rem;
+        font-weight: bolder;
+        line-height: 40px;
+    }
+    .about4{
+        display: flex;
+    }
+    .about4 p{
+        font-size: 1.3rem;
+        color: #545f6e;
+    }
+}
+        /* <!-- About Me section "end" --> */
+
+/* Featuers section in css start + responsive */
+.featuer1{
+    position: relative;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.f1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+.p1{
+    color: white;
+}
+.p1 p{
+    font-size: 2.2rem;
+    font-weight: bold;
+    line-height: 50px;
+}
+.featuer3{
+    display: flex;
+    
+}
+.featuer4{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.6) 100%);
+    backdrop-filter: blur(3.5px);
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);
+    border-radius: 30px;
+    margin: 20px;
+    padding: 3rem 3rem;
+    width: 350px;
+    height: 400px;
+    line-height: 30px;
+}
+.featuer4 h1{
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+.featuer4 p{
+    color: #334255;
+    font-weight: bold;
+    font-size: 20px;
+}
+.featuer4 input{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+    margin-top: 50px;
+    border-radius: 50px;
+    width: 200px;
+    height: 60px;
+    color: white;
+    background-color: #a148ff !important;
+    background: linear-gradient(90deg, #a148ff 0%, #ff6f45 100%);
+    border: none;
+    transition: all 0.3s;
+}
+#featuer4 .fa-solid{
+    background-color: #E3E9FF;
+    height: 50px;
+    width: 50px;
+    color: #6f0dd8;
+    font-size: 3rem;
+    padding: 15px;
+    border-radius: 100%;
+
+}
+/* responsive part */
+@media screen and (max-width:768) {
+    .featuer1{
+        position: relative;
+        background-repeat: no-repeat;
+        text-align: center;
+    }
+    .f1{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+    }
+    .p1{
+        color: white;
+    }
+    .p1 p{
+        font-size: 2.2rem;
+        font-weight: bold;
+        line-height: 50px;
+    }
+    .featuer3{
+        display: block;
+        
+    }
+    .featuer4{
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.6) 100%);
+        backdrop-filter: blur(3.5px);
+        box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);
+        border-radius: 30px;
+        margin: 20px;
+        padding: 3rem 3rem;
+        width: 350px;
+        height: 400px;
+        line-height: 30px;
+    }
+    .featuer4 h1{
+        font-weight: bold;
+        font-size: 1.7rem;
+    }
+    .featuer4 p{
+        color: #334255;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .featuer4 input{
+        font-size: 20px;
+        font-weight: bold;
+        padding: 15px;
+        margin-top: 50px;
+        border-radius: 50px;
+        width: 200px;
+        height: 60px;
+        color: white;
+        background-color: #a148ff !important;
+        background: linear-gradient(90deg, #a148ff 0%, #ff6f45 100%);
+        border: none;
+        transition: all 0.3s;
+    }
+    #featuer4 .fa-solid{
+        background-color: #E3E9FF;
+        height: 50px;
+        width: 50px;
+        color: #6f0dd8;
+        font-size: 3rem;
+        padding: 15px;
+        border-radius: 100%;
+    
+    }
+}
+/* End */
