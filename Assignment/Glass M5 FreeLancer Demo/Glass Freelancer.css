@@ -117,7 +117,9 @@ body{
 /* Pending */
 
 /* First Background image section and write content on it "Start" */
-
+.start1{
+    background:blue;
+}
 .start2{
     position: relative;
     background-repeat: no-repeat;
@@ -125,7 +127,7 @@ body{
     z-index: 0;
 }
 .start2 img{
-    opacity: 0.3;
+    opacity: 0.4;
     background-color:blue !important;
     background: linear-gradient(180deg, #6f0dd8 100%, blue 50%);
 }
@@ -489,21 +491,60 @@ body{
 }
 /* End */
 .my1 {
- border: 1px solid red;
  width: cover;
  height: 500px;
- margin: 100px;
+ margin: 50px;
  display: flex;
  position: relative;
 }
 .my2{
-    border: 1px solid black;
+    position: absolute;
     margin: 50 50 50 50;
-   
+    z-index: 1;
+}
+.my2 img{
+   width: 650px;
+   height: 350px;
+   border-radius: 30px; 
 }
 .my3{
-    border: 1px solid black;
-
+    position: absolute;
+    width: 600px;
+    height: 420px;
+    margin-left: 650px;
+    padding-left: 100px;
+    padding-right: 70px;
+    padding-top: 50px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.6) 100%);
+    backdrop-filter: blur(3.5px);
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);
+    border-radius: 30px;
+}
+.my3 h1{
+    color:#334255;
+    font-size: 2.7rem;
+    font-weight: bolder;
+    line-height: 10px;
+}
+.my3 p{
+    color: gray;
+    font-size: 18px;
+    line-height: 25px;
+}
+.my4 progress{
+    width: 600px;
+    margin: 0;
+    line-height: 1px;
+}
+.my5{
+    display: flex;
+    justify-content: space-between;
+}
+.my5 h3{
+    color: gray;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 2px;
 }
 /* pending */
 
@@ -843,3 +884,38 @@ body{
     border: none;
 }
 /* pendding */
+
+
+/* Footer Section Start */
+.footer1{
+    color: white;
+    background-color: black;
+    width: 1583px;
+    height: 450px;
+}
+.footer2{
+    display: flex;
+    margin: 0px 50px;
+    padding: 30px;
+    padding-top: 100px;
+}
+.footer3{
+    width: 600px;
+}
+.footer3 p{
+    font-size: 20px;
+    line-height: 30px;
+}
+.footer4{
+    display: flex;
+    margin: 0px 50px;
+}
+.footer5{
+    margin: 0px 50px;
+}
+.footer5 li{
+    font-size: 18px;
+    line-height: 30px;
+    list-style-type: none;
+    cursor: pointer;
+}
