@@ -1,16 +1,14 @@
 body{
     font-family: sans-serif;
     margin: 0;
+    background-color: #ff6f45;
 }
 
 /* NavBar section + responsive section "Start" */
 .nav1 {
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
-    margin-left: 50px;
     width: 90%;
-    padding-right: 25px;
     position: fixed;
     z-index: 1;
 }
@@ -46,12 +44,33 @@ body{
     transition: all 0.3s;
 }
 .nav-icon {
-    color: white;
+    color:white;
     font-size: 40px;
+    display: none;
 }
 /* Responsive Start */
-
-/* Pending */
+@media screen and (max-width:991px) {
+    .nav1 {
+        display: flex;
+        width: 60%;
+    }
+    .nav3 {
+        display: none;
+    }
+    .nav4 input {
+        display: none;
+    }
+    .nav-icon {
+        display: flex;
+    }
+}
+@media screen and (max-width:767px) {
+    .nav1 {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+/* Compelete End with Responsive */
 
 /* First Background image section and write content on it "Start" */
 .start1{
@@ -99,7 +118,67 @@ body{
     transition: all 0.3s;
 }
 
-/* First Background image section and write content on it "Pending" */
+/* Responsive section */
+@media screen and (max-width:991px) {
+    .start1 {
+        justify-content: center;
+    }
+    .start2 {
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 0;
+        justify-content: center;
+    }
+    .start3 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+    }
+    .start3 h1{
+        text-align: center;
+        font-size: 3rem;
+    }
+    .start3 p{
+        color: white;
+    font-size: 1rem;
+    line-height: 30px;
+    word-spacing: 1px;
+    text-align: center;
+    }
+    .start4{
+        text-align: center;
+    }
+    .start4 input {
+        font-size: 15px;
+        padding: 15px 30px;
+    }
+}
+@media screen and (max-width:767px) {
+    .start1 {
+        justify-content: center;
+    }
+    .start3 h1{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .start3 p{
+        color: white;
+        font-size: 0.8rem;
+        line-height: 20px;
+        word-spacing: 1px;
+        text-align: center;
+    }
+    .start4{
+        text-align: center;
+    }
+    .start4 input {
+        font-size: 10px;
+        padding: 10px 20px;
+    }
+}
+/* Compelete End with Responsive */
 
         /* <!-- About Me section "Start" --> */
 
@@ -135,8 +214,55 @@ body{
     font-size: 1.3rem;
     color: #545f6e;
 }
-
-        /* <!-- About Me section "end" --> */
+/* Responsive Section */
+@media screen and (max-width:991px) {
+    .about1 {
+        display: block;
+        justify-content: center;
+    }
+    .about2 {
+        width: 100%;
+        height: auto;
+    }
+    .about2 img {
+        width: 100%;
+        height: auto;
+    }
+    .about3 {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .about3 h1{
+        font-size: 5rem;
+        line-height: 50px;
+        margin-top: 100px;
+    }
+    .about4 {
+        width: 100%;
+        display: block;
+    }
+    .about4 p{
+        font-size: 2rem;
+        line-height: 50px;
+    }
+}
+@media screen and (max-width:767px) {
+    .about1 {
+        justify-content: center;
+        display: block;
+    }
+    .about3 h1{
+        font-size: 4.1rem;
+        line-height: 50px;
+        margin-top: 100px;
+    }
+    .about4 p{
+        font-size: 2rem;
+        line-height: 50px;
+    }
+}
+        /* <!-- About Me section compelete "end" with Responsive --> */
 
 /* Featuers section in css start + responsive */
 .featuer1{
@@ -150,6 +276,9 @@ body{
     left: 50%;
     transform: translate(-50%, -50%); 
 }
+.featuer-sub {
+    display: flex;
+}
 .p1{
     color: white;
 }
@@ -159,7 +288,7 @@ body{
     line-height: 50px;
 }
 .featuer3{
-    display: flex;
+    display: block;
     
 }
 .featuer4{
@@ -207,10 +336,23 @@ body{
 
 }
 /* responsive part */
+@media screen and (max-width:991px) {
+    .featuer1 {
+        width: 100%;
+        height: max-content;
+        object-fit: fill;
+    }
+    .featuer2 {
+        height: 200%;
+    }
+ 
+}
+/* End pending */
 
-/* End */
+
+/* My Section Start */
 .my1 {
- width: cover;
+ width: 100%;
  height: 500px;
  margin: 50px;
  display: flex;
@@ -265,7 +407,49 @@ body{
     font-size: 20px;
     line-height: 2px;
 }
-/* pending */
+/* Responsive Section */
+@media screen and (max-width:991px) {
+  .my1 {
+    display: block;
+    position: relative;
+    height: 200%;
+    width: 100%;
+  }
+  .my2 {
+    position: absolute;
+  }
+    .my2 img {
+    width: 100%;
+    height: 100%;
+  } 
+  .my3 {
+    width: 70%;
+    margin: 50;
+    margin-top: 700PX;
+  } 
+}
+@media screen and (max-width:767px) {
+    .my1 {
+      display: block;
+      position: relative;
+      height: 100%;
+      width: 50%;
+    }
+    .my2 {
+      position: absolute;
+    }
+      .my2 img {
+      width: 50%;
+      height: 100%;
+    } 
+    .my3 {
+      width: 35%;
+      margin: 30;
+      margin-top: 350PX;
+    } 
+  }
+
+/* End With Responsive */
 
 /* our pricing section start */
 .our1{
@@ -324,8 +508,46 @@ body{
     border: none;
     transition: all 0.3s;
 }
-/* pending */
+/* Responsive */
+@media screen and (max-width:991px) {
+    .our1 {
+        width: 100%;
+        height: 100%;
+    }
+    .our2 img {
+        width: 100%;
+        height: 100%;
+    }
+    .our31 {
+        display:inline-flex;
+        width: 90%;
+    }
+    .our4 {
+        width: 50%;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:767px) {
+    .our1 {
+        width: 100%;
+        height: 100%;
+    }
+    .our2 img {
+        width: 100%;
+        height: 100%;
+    }
+    .our31 {
+        display:block;
+        width: 90%;
+    }
+    .our4 {
+        width: 50%;
+        flex-wrap: wrap;
+    }
+}
+/* End */
 
+/* Clients section Start */
 .clients1{
     position: relative;
 }
@@ -418,13 +640,13 @@ body{
 /* Hello section start */
 
  .hello1{
-    margin: 100 200;
-    width: 1200px;
+    margin: 100 0;
+    width:100%;
     height: 300px;
     text-align: center;
     background-color: #DFEAFE;
     border-radius: 30px;
-    padding-top: 50px;
+    border: 2px solid red;
  }
  .hello1 h4{
     color: #334255;
@@ -438,7 +660,21 @@ body{
     font-weight: bold;
     line-height: 50px;
  }
-/* pendding */
+/* Responsive */
+ @media screen and (max-width:991px) {
+    .hello1 {
+        margin: 100px 0px;
+        width: 100%;
+    }
+    .hello1 h1{
+        font-size: 4rem;
+    }
+    .hello1 h4{
+        font-size: 15px;
+        padding-top:30px ;
+    }
+ }
+ /* End with Responsive */
 
 /* subscribe section start */
 .subscribe2{
@@ -448,7 +684,7 @@ body{
 .subscribe3{
     display: flex;
     position: absolute;
-    width: 1300px;
+    width: 90%;
     height: 200px;
     top: 50%;
     left: 50%;
@@ -459,7 +695,7 @@ body{
     margin-top: 60px;
 }
 .subscribe4{
-    width: 1050px;
+    width: ;
     height: 150px;
     border-radius: 30px;
     background: linear-gradient(0deg, rgba(250, 248, 248, 0.3) 0%, rgba(252, 250, 250, 0.6) 100%);
@@ -490,12 +726,47 @@ body{
     border: none;
     transition: all 0.3s;
 }
-/* pendding */
-
+/* Responsive */
+@media screen and (max-width:991px) {
+    .subscribe1 {
+        display: flex;
+    }
+    .subscribe2 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .subscribe3 {
+        display: block;
+        width: 100%;
+        margin: 50px;
+    }
+    .subscribe4 input[type=text]{
+        width: 80%;
+    }
+}
+@media screen and (max-width:767px) {
+    .subscribe2 {
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+    .subscribe3 {
+        width: 100%;
+    }
+    .subscribe4 {
+        width: 100%;
+    }
+    .subscribe4 input[type=text]{
+        width: 50%;
+    }
+}
+/* End */
+/* Nmae Section Start */
 .name1{
     display: flex;
     position: relative;
-    width: 1470px;
+    width: 100%;
     height: 700px;
     margin: 100 100;
 }
@@ -530,8 +801,28 @@ body{
     font-size: 20px;
     font-weight: 100;
 }
-/* pending */
-
+/* Responsive */
+@media screen and (max-width:991px) {
+    .name1 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border: 2px solid red;
+    }
+    .name2 {
+        display: block;
+        width: 90%;
+        height: auto;
+    }
+    .name2 img{
+        width: 100%;
+    }
+    .name3 {
+        width: 100%;
+        margin-top: 700px;
+        margin-left: 0;
+    }
+}
 /* Form section Start */
 .contact1{
     text-align: center;
