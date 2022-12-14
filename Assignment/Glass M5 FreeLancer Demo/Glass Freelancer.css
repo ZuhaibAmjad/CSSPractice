@@ -3,6 +3,10 @@ body{
     margin: 0;
     background-color: #ff6f45;
 }
+.demo {
+    background-color: cornflowerblue;
+    overflow: hidden;
+}
 
 /* NavBar section + responsive section "Start" */
 .nav1 {
@@ -184,26 +188,29 @@ body{
 
 .about1{
     display: flex;
-    margin: 100px;
+    margin: 0 10px;
 }
 .about2{
-    width: 500px;
-    height: 500px;
+    width: 350px;
+    height: 250px;
+    margin-top: 50px;
+    margin-left: 20px;
 }
 .about2 img{
     border-radius: 30px;
+    width: 100%;
 }
 .about3{
     background-color: #E3E9FF;
     border-radius: 30px;
-    width: 750px;
-    height: 300px;
-    margin: 150 0  150 50;
+    width: 500px;
+    height: 250px;
+    margin: 100 20;
     padding: 50px;
 }
 .about3 h1{
     color: #052349;
-    font-size: 4.1rem;
+    font-size: 3.5rem;
     font-weight: bolder;
     line-height: 40px;
 }
@@ -211,7 +218,7 @@ body{
     display: flex;
 }
 .about4 p{
-    font-size: 1.3rem;
+    font-size: 1rem;
     color: #545f6e;
 }
 /* Responsive Section */
@@ -296,29 +303,29 @@ body{
     backdrop-filter: blur(3.5px);
     box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);
     border-radius: 30px;
-    margin: 20px;
-    padding: 3rem 3rem;
-    width: 350px;
-    height: 400px;
-    line-height: 30px;
+    margin: 10px;
+    padding: 20px;;
+    width: 300px;
+    height: 350px;
+    line-height: 20px;
 }
 .featuer4 h1{
     font-weight: bold;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
 }
 .featuer4 p{
     color: #334255;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
 }
 .featuer4 input{
-    font-size: 20px;
+    font-size: 17px;
     font-weight: bold;
     padding: 15px;
     margin-top: 50px;
     border-radius: 50px;
-    width: 200px;
-    height: 60px;
+    width: 160px;
+    height: 50px;
     color: white;
     background-color: #a148ff !important;
     background: linear-gradient(90deg, #a148ff 0%, #ff6f45 100%);
@@ -330,7 +337,7 @@ body{
     height: 50px;
     width: 50px;
     color: #6f0dd8;
-    font-size: 3rem;
+    font-size: 2rem;
     padding: 15px;
     border-radius: 100%;
 
@@ -446,25 +453,25 @@ body{
 .my1 {
  width: 100%;
  height: 500px;
- margin: 50px;
+ margin-top: 30px;
  display: flex;
  position: relative;
 }
 .my2{
     position: absolute;
-    margin: 50 50 50 50;
+    margin: 50 50;
     z-index: 1;
 }
 .my2 img{
-   width: 650px;
+   width: 100%;
    height: 350px;
    border-radius: 30px; 
 }
 .my3{
     position: absolute;
-    width: 600px;
-    height: 420px;
-    margin-left: 650px;
+    width: 450px;
+    height: 400px;
+    margin-left: 520px;
     padding-left: 100px;
     padding-right: 70px;
     padding-top: 50px;
@@ -475,17 +482,17 @@ body{
 }
 .my3 h1{
     color:#334255;
-    font-size: 2.7rem;
+    font-size: 2.2rem;
     font-weight: bolder;
     line-height: 10px;
 }
 .my3 p{
     color: gray;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 25px;
 }
 .my4 progress{
-    width: 600px;
+    width: 450px;
     margin: 0;
     line-height: 1px;
 }
@@ -566,34 +573,34 @@ body{
     box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);
     border-radius: 30px;
     margin: 20px;
-    padding: 3rem 3rem;
-    width: 350px;
-    height: 400px;
+    padding: 30px 30px;
+    width: 250px;
+    height: 350px;
     line-height: 30px;
 }
 .our4 h1{
     font-weight: bolder;
-    font-size: 5rem;
+    font-size: 3rem;
     color: #334255;
 }
 .our4 h2{
     font-weight: bolder;
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     color: #334255;
 }
 .our4 p{
     color: #334255;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 17px;
 }
 .our4 input{
-    font-size: 20px;
+    font-size: 17px;
     font-weight: bold;
     padding: 15px;
     margin-top: 30px;
     border-radius: 50px;
     width: 150px;
-    height: 60px;
+    height: 50px;
     color: white;
     background-color: #a148ff !important;
     background: linear-gradient(90deg, #a148ff 0%, #ff6f45 100%);
@@ -787,8 +794,8 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    width: 85%;
-    height: 400px;
+    width: 70%;
+    height: 350px;
     border-radius: 30px;
     background: linear-gradient(0deg, rgba(250, 248, 248, 0.3) 0%, rgba(252, 250, 250, 0.6) 100%);
     backdrop-filter: blur(3.5px);
@@ -797,12 +804,11 @@ body{
 }
 .feedback3 h1{
     margin-top: 70px;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
     color:#334255;
 }
 .feedback4{
-    border: 2px solid red;
     display: flex;
     margin-top: 50px;
     justify-content: center;
@@ -810,10 +816,9 @@ body{
 .feedback5{
    margin: 0 40;
     display: flex;
-    border: 1px solid green;
 }
 .feedback5 p{
-    font-size: 20px;
+    font-size: 17px;
     font-weight: bold;
     color: #334255;
     word-spacing:5px;
@@ -1025,17 +1030,17 @@ body{
     margin-top: 50px;
 }
 .name2 img{
-    width: 470px;
-    height: 630px;
+    width: 400px;
+    height: 600px;
     border-radius: 30px;
 }
 .name3 {
     position: absolute;
-    width: 750px;
+    width: 500px;
     height: 250px;
-    margin-top: 300px;
-    margin-left: 510px;
-    border-radius: 30px;
+    margin-top: 200px;
+    margin-left: 420px;
+    border-radius: 20px;
     z-index: 0;
     padding: 50px;
     background: linear-gradient(0deg, rgba(250, 248, 248, 0.3) 0%, rgba(252, 250, 250, 0.6) 100%);
@@ -1043,8 +1048,8 @@ body{
     box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);
 }
 .name3 p{
-    font-size: 2rem;
-    font-weight: bold;
+    font-size: 1.5rem;
+    font-weight: 200;
 }
 .name3 h4{
     font-size: 20px;
