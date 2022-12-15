@@ -75,6 +75,17 @@ body {
     border: none;
     cursor: pointer;
 }
+/* Responsive */
+@media screen and (max-width:992px) {
+    .navbar {
+    }
+    .nav-ul ul li{
+        display: none;
+    }
+    .nav-btn{
+        display: none;
+    }
+}
 /* navbar portion end */
 .start {
     background-color: #ffcc01;
