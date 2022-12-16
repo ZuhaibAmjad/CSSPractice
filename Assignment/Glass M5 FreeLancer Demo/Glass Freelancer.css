@@ -57,7 +57,7 @@ body{
 
 /* First Background image section and write content on it "Start" */
 .start1{
-    background:blue;
+    background:#5a5abe;
 }
 .start2{
     position: relative;
@@ -155,6 +155,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); 
+    width: 100%;
 }
 .featuer-sub {
     display: flex;
@@ -164,6 +165,9 @@ body{
 }
 .p1{
     color: white;
+    width: 85%;
+    margin-left: 70px;
+
 }
 .p1 p{
     font-size: 2.2rem;
@@ -191,6 +195,7 @@ body{
     color: #334255;
     font-weight: 200;
     font-size: 20px;
+    line-height: 30px;
 }
 .featuer4 input{
     font-size: 17px;
@@ -288,8 +293,9 @@ body{
 .our3{
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); 
+    left: 55%;
+    transform: translate(-50%, -50%);
+    width: 100%; 
 }
 .our31{
     display: flex;
@@ -308,7 +314,7 @@ body{
     border-radius: 30px;
     margin: 20px;
     padding: 30px 50px;
-    width: 30%;
+    width: 20%;
     line-height: 30px;
 }
 .our4 h1{
@@ -662,7 +668,7 @@ body{
 /* responsive */
 
 /* End */
-/* Responsive Section 992Px /* End First Media Query Max-Width 992 Pixals */ */
+/* Responsive Section 992Px /* End First Media Query Max-Width 992 Pixals */
 
 @media screen and (max-width:992px) {
     /* Navbar Part */
@@ -672,11 +678,16 @@ body{
     .nav3 {
         display: none;
     }
+    .nav2 {
+        margin-left: 40px;
+    }
     .nav4 {
         display: none;
     }
-    .nav4 .nav-icon .fa-solid {
+    .nav-icon {
         display:flex;
+        margin-top: 20px;
+        margin-right: 40px;
     }
     /* End NavBar Part */
 
@@ -743,8 +754,8 @@ body{
         justify-content: center;
     }
     .featuer4 {
-        width: 38%; 
-        padding: 10px;
+        width: 35%; 
+        padding: 50px 20px;
         margin-left: 30px;
         line-height: 20px;
     }
@@ -775,6 +786,7 @@ body{
         width: 80%;
         padding: 50px;
         margin-top: 30px;
+        margin-bottom: 60px;
     }
     .my3 h1 {
         line-height: 10px;
@@ -805,18 +817,25 @@ body{
     .our3 {
         position: absolute;
         top: 60%;
-        left: 35%;
+        left: 50%;
         transform: translate(-50%, -50%);
+    }
+    .p1 {
+        justify-content: center;
+    }
+    .p1 p {
+        text-align: center;
+        font-size: 1.7rem;
     }
     .our31 {
         display: flex;
         flex-wrap: wrap;
-        width: 150%;
+        width: 100%;
         justify-content: center;
     }
     .our4 {
         width: 30%;
-        padding: 25px 40px;
+        padding: 50px 30px;
     }
     .p1 p {
         justify-content: center;
