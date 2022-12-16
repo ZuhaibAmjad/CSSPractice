@@ -754,7 +754,7 @@ body{
     }
     .featuer2 img {
         width: 100%;
-        height: 150%;
+        height: 170%;
     }
     .featuer-sub {
         width: 100%;
@@ -1026,3 +1026,13 @@ body{
 /* End First Media Query Max-Width 992 Pixals */
 
 /* Start Second Media Query Max-Width 768pixals */
+@media screen and (max-width: 768px) {
+    .clients3 {
+        display: block;
+    } 
+    .clients4 {
+        width: 90%;
+        border: 1px solid red;
+    }
+
+}
