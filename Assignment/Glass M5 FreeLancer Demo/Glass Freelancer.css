@@ -1026,13 +1026,30 @@ body{
 /* End First Media Query Max-Width 992 Pixals */
 
 /* Start Second Media Query Max-Width 768pixals */
-@media screen and (max-width: 768px) {
-    .clients3 {
-        display: block;
-    } 
-    .clients4 {
-        width: 90%;
-        border: 1px solid red;
+@media only screen and (min-width:767px) {
+   /* NavBar  */
+    .nav1 {
+        display:flex;
     }
+/* Start */
+.start3 {
+    justify-content: center;
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
+}
+.start3 h1{
+    text-align: center;
+    font-size: 4rem;
+}
+.start3 p{
+    text-align: center;
+    font-size: 2rem;
+}
+.start4 input{
+    justify-content: center;
+    margin-left: 30%;
+}
 }

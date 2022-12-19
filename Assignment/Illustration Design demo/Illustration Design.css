@@ -93,7 +93,7 @@ body {
     width: 86%;
     margin-left: 110px;
     display:inline-block;
-    height: 650px;
+    height: 65%;
     display: flex;
     margin-top: 70px;
     border-radius: 30px;
@@ -932,5 +932,94 @@ border-radius: 30px;
     }
     .nav-icon {
         display: flex;
+    }
+    /* End */
+    /* Start sention */
+    .start{
+        display: block;
+        width: 90%;
+        height: 230%;
+        margin-left: 5%;
+        padding-bottom: 50px;
+    }
+    .first-heading h2{
+        width: 80%;
+        font-size: 3rem;
+        padding-top: 50px;
+        /* text-align: center; */
+    }
+    .prg1 p{
+        width: 80%;
+    }
+    #start {
+        width: 100%;
+        overflow: wrap;
+        top: 50%;
+    }
+    .first-img img{
+        position: relative;
+        width: 94%;
+        margin-left: 3%;
+        height: 70%;
+    }
+    /* end */
+
+    /* third part */
+}
+
+
+
+
+
+
+
+
+@media (max-width:768px) {
+    /* NavBar part Responsive Start */
+    .navbar {
+        display: flex;
+    }
+    .nav-ul ul {
+        display: none;
+    }
+    .nav-icons {
+        display: none;
+    }
+    .nav-btn {
+        display: none;
+    }
+    .nav-icon {
+        display: flex;
+    }
+    /* End */
+    /* Start sention */
+    .start{
+        display: block;
+        width: 60%;
+        height: 200%;
+        margin-left: 5%;
+        padding-bottom: 50px;
+        justify-content: center;
+    }
+    .first-heading > h2{
+        border: 1px solid red;
+        width: 80%;
+        font-size: 3rem;
+        padding-top: 50px;
+        text-align: center;
+    }
+    .prg1 p{
+        width: 80%;
+    }
+    #start {
+        width: 100%;
+        overflow: wrap;
+        top: 50%;
+    }
+    .first-img img{
+        position: relative;
+        width: 94%;
+        margin-left: 3%;
+        height: 40%;
     }
 }
