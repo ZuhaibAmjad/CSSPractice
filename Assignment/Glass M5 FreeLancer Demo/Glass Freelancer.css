@@ -669,387 +669,41 @@ body{
 
 /* End */
 /* Responsive Section 992Px /* End First Media Query Max-Width 992 Pixals */
-
-@media screen and (max-width: 992px) {
-    /* Navbar Part */
+@media screen and (max-width:992px) {
     .nav1 {
         display: flex;
     }
     .nav3 {
         display: none;
     }
-    .nav2 {
-        margin-left: 40px;
-    }
     .nav4 {
-        display: none;
+        display:none ;
     }
     .nav-icon {
         display:flex;
         margin-top: 20px;
         margin-right: 40px;
     }
-    /* End NavBar Part */
-
-    /* Start part first image  */
-    .start2 img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
+}
+@media screen and (min-width: 991px) {
+    .nav1{
+        display:;
     }
-    .start3 {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 80%;
+    .nav3{
+        display:none ;
     }
-    .start3 h1 {
-        font-size: 4rem;
+    .nav4{
+        display:none ;
     }
-    .start3 p {
-        font-size: 1.6rem;
-    }
-    .start4 input {
-        font-size: 25px;
-        padding: 20px 40px;
-    }
-    /* End First Start Part1 */
-
-    /* About Section Start part 2 */
-    .about1 {
-        display: block;
-    }
-    .about2 {
-        width: 80%;
-        height: 100%;
-    }
-    .about2 img {
-        width: 100%;
-        height: 120%;
-        margin-left: 50px;
-        object-fit:cover;
-        border-radius: 30px;
-    }
-    .about3 {
-        width: 60%;
-        padding: 10px 100px;
-        padding-top: 30px;
-        padding-bottom: 100px;
-    }
-    .about4 {
-        display: block;
-    }
-    /* End About Section Part2 */
-
-    /* Featuers Section Start Part3 */
-    .featuer1 {
-        position: relative;
-    }
-    .f1{
-        position: absolute;
-        top: 50%;
-        left: 45%;
-        transform: translate(-50%, -50%);
-    }
-    .featuer2 img {
-        width: 100%;
-        height: 170%;
-    }
-    .featuer-sub {
-        width: 100%;
+    .nav-icon {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+        margin-top:20px;
+        margin-right: 40px;
     }
-    .featuer4 {
-        width: 35%; 
-        padding: 50px 20px;
-        margin-left: 30px;
-        line-height: 20px;
-    }
-    .featuer4 h1{
-        font-size: 2rem;
-    }
-    .featuer4 input{
-        margin-top: 20px;
-    }
-
-    /* Featuer Section End Part3*/
-
-    /* My Competance Section Start Part4 */
-    .my1 {
-        display: block;
-        width: 100%;
-        height: 100%;
-    }
-    .my2 {
-        width: 90%;
-        height: 90%;
-    }
-    .my2 img {
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-    .my3 {
-        width: 80%;
-        padding: 50px;
-        margin-top: 30px;
-        margin-bottom: 60px;
-    }
-    .my3 h1 {
-        line-height: 10px;
-    }
-    .my3 p{
-        line-height: 20px;
-    }
-    .my4 progress {
-        line-height: 50px;
-    }
-    .my5 h3 {
-        line-height: 0px;
-    }
-    /* My Copetance Section End Part4 */
-
-    /* Our Pricing Section Start Part5 */
-    .our1 {
-        text-align: center;
-    }
-    .our2 {
-        width: 100%;
-    }
-    .our2 img {
-        width: 100%;
-        height: 170%;
-        object-fit:cover;
-    }
-    .our3 {
-        position: absolute;
-        top: 60%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-    .p1 {
-        justify-content: center;
-    }
-    .p1 p {
-        text-align: center;
-        font-size: 1.7rem;
-    }
-    .our31 {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        justify-content: center;
-    }
-    .our4 {
-        width: 30%;
-        padding: 50px 30px;
-    }
-    .p1 p {
-        justify-content: center;
-    }
-    /* Our Pricing Section End Part5 */
-
-    /* Our Clients Section Start part6 */
-    .clients1 {
-        position: relative;
-    }
-    .clients2 {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center; 
-    }
-    .clients2 h3{
-        font-size: 25px;
-        font-weight: 100;
-        color: #334255;
-    }
-    .clients2 p{
-        font-size: 30px;
-        font-weight: bold;
-        color:#334255;
-    }
-    .clients3{
-        display: flex;
-    }
-    .clients4 {
-        width: 25%;
-    }
-    .clients4 img {
-        width: 150px;
-        padding-left: 30px;
-    }
-    /* Our Clients Section End Part6 */
-
-    /* FeedBack Section Start Part7 */
-
-    .feedback1 {
-        text-align: center;
-    }
-    .feedback2 {
-        position: relative;
-    }
-    .feedback3 {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-        width: 75%;
-        border-radius: 30px;
-        padding: 50px;
-        padding-bottom: 100px;
-    }
-    .feedback3 h1{
-        margin-top: 40px;
-    }
-    .feedback5 {
-        margin: 0 10;
-        width: 200px;
-    }
-    .feedback5 p{
-        font-size: 20px;
-        font-weight: 200;
-    }
-    .feedback5 .fa-solid {
-        padding: 10px;
-        padding-top: 10px;
-    }
-    .feedback5 .fa-regular {
-        padding: 10px;
-        padding-top: 15px;
-    }
-    /* FeeBack Section End Part7 */
-
-    /* New Project Section Start Part8 */
-    .hello1 {
-        width: 70%;
-        margin: 100px;
-    }
-    .hello1 h1 {
-        font-size: 4rem;
-    }
-    .hello2 {
-        padding: 50px;
-    }
-    /* New Project Section End Part8 */
-
-    /* Join My Feed Section Start Part9 */
-    .subscribe1 {
-        text-align: center;
-    }
-    .subscribe2 {
-        display: block;
-    }
-    .subscribe2 img {
-        width: 100%;
-    }
-    .subscribe3 {
-        display: block;
-        width: 80%;
-        top: 30%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        padding-bottom: 50px;
-    }
-    .subscribe4 {
-        padding: 20px;
-    }
-    .subscribe4 input[type=text]{
-        margin-top: 30px;
-    }
-    /* Join My Feed Section End Part9 */
-
-    /* Name ans Image Section Start Part10 */
-
-    .name1 {
-        width: 100%;
-        height: 240%;
-    }
-    .name2 {
-        width: 80%;
-        height: 120%;
-        object-fit: cover;
-    }
-    .name2 img {
-        margin: 0 50;
-    }
-    .name3 {
-        width: 70%;
-        margin-top: 120%;
-    }
-    /* Name and Image Section End Part10 */
-
-    /* Contact Form Section Start part11 */
-    .contact1 {
-        text-align: center;
-        position: center;
-    }
-    .contact1 img {
-        width: 100%;
-        height: 130%;
-    }
-    .contact2 {
-        margin-top: 100px;
-        padding-bottom: 30px;
-        padding-top: 50px;
-        height: 80%;
-    }
-    .contact3 input[type=text]{
-        width: 90%;
-    }
-    /* Contact Form Section End Part11 */
-
-    /* Footer Section Start Part12 */
-    .footer1 {
-        width: 100%;
-    }
-    .footer2 {
-        display: flex;
-        width: 100%;
-    }
-    .footer4{
-        width: 100%;
-        flex-wrap: wrap;
-    }
-    .footer5 {
-        width:25%;
-        margin-left: 150px;
-        margin-bottom: 50px;
-    }
-    /* Footer Section End Part12 */
 
 }
-/* End First Media Query Max-Width 992 Pixals */
 
-/* Start Second Media Query Max-Width 768pixals */
-@media only screen and (min-width:767px) {
-   /* NavBar  */
-    .nav1 {
-        display:flex;
-    }
-/* Start */
-.start3 {
-    justify-content: center;
-    width: 70%;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
 
-}
-.start3 h1{
-    text-align: center;
-    font-size: 4rem;
-}
-.start3 p{
-    text-align: center;
-    font-size: 2rem;
-}
-.start4 input{
-    justify-content: center;
-    margin-left: 30%;
-}
-}
+
+
+
